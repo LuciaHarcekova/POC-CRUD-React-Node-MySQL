@@ -1,0 +1,69 @@
+/*
+ * Base
+ */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+hr {
+  color: beige;
+  width: 100%;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+  font-size: 18px;
+  padding-left: 10px;
+  margin: 5px
+}
+
+button {
+  width: 320px;
+  height: 30px;
+  margin-top: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+div {
+  width: 100%;
+}
+
+/*
+ * Form to add user
+ */
+.add-user-form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*
+ * Displaying users 
+ */
+.display-users {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+/*
+ * User's details
+ */
+.user-details {
+  width: 700px;
+  height: auto;
+  border: 1px solid black;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+}

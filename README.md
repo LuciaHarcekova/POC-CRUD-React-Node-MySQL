@@ -17,5 +17,3 @@ In your client folder path execute the command:
 ### Server
 In your server folder path execute the command:
 `node index.js`
-
-In the project directory, you can run:
